@@ -1,0 +1,8 @@
+StartApp.exe: 00002444: 11:52:10 [192.168.4.34]:Failed Sequence Recovery: SeqId: 6, Event: tap
+StartApp.exe: 00003DD8: 11:52:39 [192.168.4.34]:Failed Sequence Recovery: SeqId: 7, Event: tap
+StartApp.exe: 00001E2C: 11:52:40 [192.168.4.34]:Failed Sequence Recovery: SeqId: 8, Event: tap
+StartApp.exe: 00003A68: 11:53:09 [192.168.4.34]:Failed Sequence Recovery: SeqId: 6, Event: tap
+StartApp.exe: 00003DF0: 19:00:18 [127.0.0.1]:Failed Sequence Recovery: SeqId: 6, Event: tap
+StartApp.exe: 00000E88: 19:00:23 [127.0.0.1]:Failed Sequence Recovery: SeqId: 7, Event: tap
+StartApp.exe: 00002CD4: 19:00:28 [127.0.0.1]:Failed Sequence Recovery: SeqId: 8, Event: tap
+StartApp.exe: 00004BA4: 19:00:48 [127.0.0.1]:Failed Sequence Recovery: SeqId: 6, Event: tap

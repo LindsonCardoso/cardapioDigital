@@ -1,0 +1,59 @@
+object UnimLoginForm1: TUnimLoginForm1
+  Left = 0
+  Top = 0
+  ClientHeight = 480
+  ClientWidth = 318
+  Caption = 'START FOOD'
+  Color = clWhite
+  AutoHeight = False
+  TitleColor = clBlack
+  CloseButton.Visible = False
+  TitleButtons = <>
+  PixelsPerInch = 96
+  TextHeight = 13
+  ScrollPosition = 0
+  ScrollHeight = 47
+  PlatformData = {}
+  object pnl1: TUnimPanel
+    Left = 0
+    Top = 0
+    Width = 318
+    Height = 480
+    Hint = ''
+    AutoScroll = True
+    Align = alClient
+    Color = clWhite
+    BorderStyle = ubsNone
+    ScrollHeight = 480
+    ScrollWidth = 318
+    object img1: TUnimImage
+      AlignWithMargins = True
+      Left = 3
+      Top = 3
+      Width = 312
+      Height = 278
+      Hint = ''
+      ParentShowHint = False
+      Align = alTop
+      Center = True
+      Stretch = True
+      ExplicitLeft = 19
+      ExplicitTop = 182
+      ExplicitWidth = 295
+    end
+    object btnEntrar: TUnimButton
+      AlignWithMargins = True
+      Left = 3
+      Top = 287
+      Width = 312
+      Height = 40
+      Hint = ''
+      Align = alTop
+      Caption = 'ENTRAR'
+      UI = 'action'
+      ExplicitLeft = -29
+      ExplicitTop = 356
+      ExplicitWidth = 295
+    end
+  end
+end

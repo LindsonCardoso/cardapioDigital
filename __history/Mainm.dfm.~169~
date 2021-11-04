@@ -1,0 +1,129 @@
+object MainmForm: TMainmForm
+  Left = 0
+  Top = 0
+  ClientHeight = 527
+  ClientWidth = 320
+  Caption = 'MainmForm'
+  ShowTitle = False
+  CloseButton.Visible = False
+  TitleButtons = <>
+  OnCreate = UnimFormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  ScrollPosition = 0
+  ScrollHeight = 0
+  PlatformData = {}
+  object UnimHTMLFrame1: TUnimHTMLFrame
+    Left = 0
+    Top = 0
+    Width = 320
+    Height = 97
+    Hint = ''
+    Align = alTop
+  end
+  object dbgCardapio: TUnimDBListGrid
+    AlignWithMargins = True
+    Left = 3
+    Top = 100
+    Width = 314
+    Height = 374
+    Hint = ''
+    Align = alClient
+    DataSource = UniMainModule.dsCardapio
+    ClientEvents.UniEvents.Strings = (
+      
+        'beforeInit=function beforeInit(sender, config)'#13#10'{'#13#10'    config.lo' +
+        'adingText='#39'Buscando...'#39';'#13#10'    config.grouped=true;'#13#10'    config.s' +
+        'electedCls='#39#39';'#13#10'    config.itemTpl='#39'<table style="width:100%;whi' +
+        'te-space: nowrap; vertical-align: middle;">'#39'+'#13#10'                 ' +
+        '  '#13#10'                   '#39'<tr>'#39'+'#13#10'                   '#39'<td><image s' +
+        'tyle="width:100%; height:90%; text-align: center;border-radius: ' +
+        '1rem;" src="files/src/cardapio/chicken.jpeg"/></td>'#39'+'#13#10'         ' +
+        '          '#39'</tr>'#39'+'#13#10'                    '#13#10'                   '#39'<t' +
+        'r>'#39'+'#13#10'                   '#39'<td style="color: #000;font-weight: 60' +
+        '0;font-size: 1.1rem;" colspan="2">{0}</td>'#39'+'#13#10'                  ' +
+        ' '#39'</tr>'#39'+'#13#10'                '#13#10'                   '#39'<tr>'#39'+  '#13#10'     ' +
+        '              '#39'<td style="color: #6f6f6f;font-weight: 600;font-s' +
+        'ize: 1.2rem;line-height: 28px;" colspan="2">R$ {1}</td>'#39'+'#13#10'     ' +
+        '              '#39'</tr>'#39'+'#13#10'                    '#13#10'                  ' +
+        ' '#39'</table>'#39';'#13#10'}'#13#10)
+    Options = [dgColLines, dgRowLines, dgConfirmDelete]
+    WebOptions.Paged = False
+    WebOptions.FetchAll = True
+    OnClick = dbgCardapioClick
+    Columns = <
+      item
+        Title.Caption = ' '
+        FieldName = 'pro_descricao'
+        Visible = False
+        Width = 994
+      end
+      item
+        Title.Caption = ' '
+        FieldName = 'pro_valor'
+        Visible = False
+        Width = 125
+      end>
+  end
+  object UnimEdit1: TUnimEdit
+    Left = 72
+    Top = 328
+    Width = 225
+    Height = 47
+    Hint = ''
+    Text = 'edtValor'
+    ParentFont = False
+    TabOrder = 3
+  end
+  object btnItems: TUnimButton
+    AlignWithMargins = True
+    Left = 3
+    Top = 480
+    Width = 314
+    Height = 44
+    Hint = ''
+    Align = alBottom
+    Caption = 'CARRINHO'
+    IconCls = 'compose'
+    UI = 'action'
+    OnClick = btnItemsClick
+  end
+  object dsRascunho: TDataSource
+    DataSet = cdsRascunho
+    Left = 200
+    Top = 160
+  end
+  object cdsRascunho: TClientDataSet
+    PersistDataPacket.Data = {
+      8B0000009619E0BD0100000018000000060000000000030000008B000770726F
+      6475746F01004900000001000557494454480200020020000471746465040001
+      0000000000046D65736104000100000000000976616C6F72756E697408000400
+      0000000008737562746F74616C0800040000000000036F627301004900000001
+      000557494454480200020034000000}
+    Active = True
+    Aggregates = <>
+    Params = <>
+    Left = 200
+    Top = 224
+    object cdsRascunhoproduto: TStringField
+      FieldName = 'produto'
+      Size = 32
+    end
+    object cdsRascunhoqtde: TIntegerField
+      FieldName = 'qtde'
+    end
+    object cdsRascunhomesa: TIntegerField
+      FieldName = 'mesa'
+    end
+    object cdsRascunhovalorunit: TFloatField
+      FieldName = 'valorunit'
+    end
+    object cdsRascunhosubtotal: TFloatField
+      FieldName = 'subtotal'
+    end
+    object cdsRascunhoobs: TStringField
+      FieldName = 'obs'
+      Size = 52
+    end
+  end
+end

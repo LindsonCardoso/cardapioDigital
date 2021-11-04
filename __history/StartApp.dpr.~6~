@@ -1,0 +1,18 @@
+program StartApp;
+
+uses
+  Forms,
+  ServerModule in 'ServerModule.pas' {UniServerModule: TUniGUIServerModule},
+  MainModule in 'MainModule.pas' {UniMainModule: TUniGUIMainModule},
+  Mainm in 'Mainm.pas' {MainmForm: TUnimForm},
+  uRascunho in 'src\component\uRascunho.pas' {frmRascunho: TUnimForm},
+  uCardapioItems in 'src\component\uCardapioItems.pas' {UnimForm1: TUnimForm};
+
+{$R *.res}
+
+begin
+  ReportMemoryLeaksOnShutdown := True;
+  Application.Initialize;
+  TUniServerModule.Create(Application);
+  Application.Run;
+end.

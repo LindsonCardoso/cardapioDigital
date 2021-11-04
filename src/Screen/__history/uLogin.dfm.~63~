@@ -1,0 +1,87 @@
+object UnimLoginForm1: TUnimLoginForm1
+  Left = 0
+  Top = 0
+  ClientHeight = 423
+  ClientWidth = 287
+  Caption = 'START FOOD'
+  Color = clWhite
+  AutoHeight = False
+  TitleColor = clBlack
+  CloseButton.Visible = False
+  TitleButtons = <>
+  PixelsPerInch = 96
+  TextHeight = 13
+  ScrollPosition = 0
+  ScrollHeight = 47
+  PlatformData = {}
+  object pnl1: TUnimPanel
+    Left = 0
+    Top = 0
+    Width = 287
+    Height = 423
+    Hint = ''
+    Align = alClient
+    Color = clWhite
+    BorderStyle = ubsNone
+    object img1: TUnimImage
+      AlignWithMargins = True
+      Left = 3
+      Top = 3
+      Width = 281
+      Height = 182
+      Hint = ''
+      ParentShowHint = False
+      Align = alTop
+      Center = True
+      Stretch = True
+      ExplicitWidth = 264
+    end
+    object btnEntrar: TUnimButton
+      AlignWithMargins = True
+      Left = 3
+      Top = 352
+      Width = 281
+      Height = 45
+      Hint = ''
+      Align = alBottom
+      Caption = 'ENTRAR'
+      UI = 'action'
+    end
+    object UnimPanel1: TUnimPanel
+      Left = 0
+      Top = 400
+      Width = 287
+      Height = 23
+      Hint = ''
+      Align = alBottom
+      Anchors = [akLeft, akTop, akRight, akBottom]
+      Color = clWhite
+    end
+    object UnimPanel2: TUnimPanel
+      Left = 0
+      Top = 188
+      Width = 287
+      Height = 114
+      Hint = ''
+      Align = alClient
+      Color = clWhite
+      BorderStyle = ubsNone
+      ExplicitTop = 191
+      ExplicitHeight = 85
+    end
+    object edtCodigo: TUnimEdit
+      Left = 0
+      Top = 302
+      Width = 287
+      Height = 47
+      Hint = ''
+      Align = alBottom
+      Text = 'edtCodigo'
+      ParentFont = False
+      TabOrder = 5
+      ExplicitLeft = 40
+      ExplicitTop = 288
+      ExplicitWidth = 225
+    end
+  end
+end
