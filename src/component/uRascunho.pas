@@ -108,13 +108,13 @@ end;
 procedure TfrmRascunho.dbgRascunhoClick(Sender: TObject);
 begin
     unmnExcluir.Visible := true;
+
 end;
 
 procedure TfrmRascunho.UnimFormCreate(Sender: TObject);
 begin
         headerPedidoItems;
         ViewTotal;
-
         dbgRascunho.DataSource  :=  MainmForm.dsRascunho;
 
 end;
@@ -124,9 +124,12 @@ begin
      case Sender.ButtonId of
       0: MainmForm.cdsRascunho.Delete;
      end;
-
      unmnExcluir.Visible := false;
-     if(MainmForm.cdsRascunho.IsEmpty)then Self.Close;
+     if(MainmForm.cdsRascunho.IsEmpty)then Self.Close
+     else
+     begin
+       ViewTotal;
+     end;
 end;
 
 procedure TfrmRascunho.ViewTotal;

@@ -30,7 +30,6 @@ object frmRascunho: TfrmRascunho
     Height = 320
     Hint = ''
     Align = alTop
-    DataSource = MainmForm.dsRascunho
     ClientEvents.UniEvents.Strings = (
       
         'beforeInit=function beforeInit(sender, config)'#13#10'{'#13#10'    config.lo' +
@@ -63,14 +62,12 @@ object frmRascunho: TfrmRascunho
         Width = 356
       end
       item
-        Alignment = taLeftJustify
         Title.Caption = 'qtde'
         FieldName = 'qtde'
         Visible = False
         Width = 114
       end
       item
-        Alignment = taLeftJustify
         Title.Caption = 'valorunit'
         FieldName = 'valorunit'
         Visible = False
@@ -96,8 +93,6 @@ object frmRascunho: TfrmRascunho
     Height = 40
     Hint = ''
     Align = alClient
-    ExplicitLeft = -2
-    ExplicitTop = 415
   end
   object btnVoltar: TUnimButton
     AlignWithMargins = True
@@ -112,7 +107,6 @@ object frmRascunho: TfrmRascunho
     UI = 'confirm'
     Font.Height = -13
     OnClick = btnVoltarClick
-    ExplicitLeft = -2
   end
   object btnFinalizar: TUnimButton
     AlignWithMargins = True
@@ -128,7 +122,7 @@ object frmRascunho: TfrmRascunho
     Font.Height = -17
     Font.Style = [fsBold]
     OnClick = btnFinalizarClick
-    ExplicitLeft = 0
+    ExplicitLeft = -2
   end
   object unmnExcluir: TUnimMenu
     Items = <
