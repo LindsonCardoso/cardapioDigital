@@ -1,0 +1,90 @@
+StartApp.exe: 000037D0: 08:33:15 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] Access denied for user 'ODBC'@'localhost' (using password: NO) : Addr: $00873144
+StartApp.exe: 000037D0: 08:33:18 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] Access denied for user 'ODBC'@'localhost' (using password: NO) : Addr: $00873144
+StartApp.exe: 0000078C: 08:34:08 [TUniServerModule]:Shutting Down Server.
+StartApp.exe: 0000078C: 08:34:08 [TUniServerModule]:Stopping HTTP Server.
+StartApp.exe: 0000078C: 08:34:09 [TUniServerModule]:HTTP Server Stopped.
+StartApp.exe: 0000078C: 08:34:09 [TUniGUISessionManager]:Terminating Session manager.
+StartApp.exe: 0000078C: 08:34:09 [TUniGUISessionManager]:Stopping Cache Eraser...
+StartApp.exe: 0000078C: 08:34:09 [TUniGUISessionManager]:Cache Eraser Stopped.
+StartApp.exe: 0000078C: 08:34:09 [TUniGUISessionManager]:Destroying Worker Threads.
+StartApp.exe: 0000078C: 08:34:09 [TUniGUISessionManager]:Session manager terminated.
+StartApp.exe: 0000078C: 08:34:09 [TUniServerModule]:Server Shutdown Completed.
+StartApp.exe: 0000078C: 08:34:09 []:<-------------------------------------------------------------->
+StartApp.exe: 0000078C: 08:34:09 [Terminated]:Exit Code: 0
+StartApp.exe: 00000190: 08:34:17 []:>--------------------------------------------------------------<
+StartApp.exe: 00000190: 08:34:17 [TUniServerModule]:Server First Init.
+StartApp.exe: 00000190: 08:34:17 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+StartApp.exe: 00000190: 08:34:17 [TUniServerModule]:HTTP Server Started on Port: 8077
+StartApp.exe: 000034A0: 08:34:22 [[FireDAC][Phys][MySQL] Access denied for user 'ODBC'@'localhost' (using password: NO)-127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] Access denied for user 'ODBC'@'localhost' (using password: NO) : Addr: $00873144
+StartApp.exe: 000034A0: 08:34:52 [[FireDAC][Phys][MySQL] Access denied for user 'ODBC'@'localhost' (using password: NO)-127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] Access denied for user 'ODBC'@'localhost' (using password: NO) : Addr: $00873144
+StartApp.exe: 00000190: 08:35:24 [TUniServerModule]:Shutting Down Server.
+StartApp.exe: 00000190: 08:35:24 [TUniServerModule]:Stopping HTTP Server.
+StartApp.exe: 00000190: 08:35:25 [TUniServerModule]:HTTP Server Stopped.
+StartApp.exe: 00000190: 08:35:25 [TUniGUISessionManager]:Terminating Session manager.
+StartApp.exe: 00000190: 08:35:25 [TUniGUISessionManager]:Stopping Cache Eraser...
+StartApp.exe: 00000190: 08:35:25 [TUniGUISessionManager]:Cache Eraser Stopped.
+StartApp.exe: 00000190: 08:35:25 [TUniGUISessionManager]:Destroying Worker Threads.
+StartApp.exe: 00000190: 08:35:25 [TUniGUISessionManager]:Session manager terminated.
+StartApp.exe: 00000190: 08:35:25 [TUniServerModule]:Server Shutdown Completed.
+StartApp.exe: 00000190: 08:35:25 []:<-------------------------------------------------------------->
+StartApp.exe: 00000190: 08:35:25 [Terminated]:Exit Code: 0
+StartApp.exe: 00001C8C: 18:56:19 []:>--------------------------------------------------------------<
+StartApp.exe: 00001C8C: 18:56:19 [TUniServerModule]:Server First Init.
+StartApp.exe: 00001C8C: 18:56:19 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+StartApp.exe: 00001C8C: 18:56:19 [TUniServerModule]:HTTP Server Started on Port: 8077
+StartApp.exe: 000020A0: 18:56:27 [HandleFileRequest[127.0.0.1]]:File not found: C:\Users\l\PDEV\DELPHI\AppStart\Win32\Release\files\src\cardapio\chicken.jpeg
+StartApp.exe: 00003A0C: 18:56:46 [HandleFileRequest[127.0.0.1]]:File not found: C:\Users\l\PDEV\DELPHI\AppStart\Win32\Release\files\src\cardapio\chicken.jpeg
+StartApp.exe: 00001C8C: 18:58:40 [TUniServerModule]:Shutting Down Server.
+StartApp.exe: 00001C8C: 18:58:40 [TUniServerModule]:Stopping HTTP Server.
+StartApp.exe: 00001C8C: 18:58:41 [TUniServerModule]:HTTP Server Stopped.
+StartApp.exe: 00001C8C: 18:58:41 [TUniGUISessionManager]:Terminating Session manager.
+StartApp.exe: 00001C8C: 18:58:41 [TUniGUISessionManager]:Stopping Cache Eraser...
+StartApp.exe: 00001C8C: 18:58:41 [TUniGUISessionManager]:Cache Eraser Stopped.
+StartApp.exe: 00001C8C: 18:58:41 [TUniGUISessionManager]:Destroying Worker Threads.
+StartApp.exe: 00001C8C: 18:58:41 [TUniGUISessionManager]:Session manager terminated.
+StartApp.exe: 00001C8C: 18:58:41 [TUniServerModule]:Server Shutdown Completed.
+StartApp.exe: 00001C8C: 18:58:41 []:<-------------------------------------------------------------->
+StartApp.exe: 00001C8C: 18:58:41 [Terminated]:Exit Code: 0
+StartApp.exe: 00000F4C: 18:58:56 []:>--------------------------------------------------------------<
+StartApp.exe: 00000F4C: 18:58:56 [TUniServerModule]:Server First Init.
+StartApp.exe: 00000F4C: 18:58:56 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+StartApp.exe: 00000F4C: 18:58:56 [TUniServerModule]:HTTP Server Started on Port: 8077
+StartApp.exe: 000010D0: 19:04:57 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: UnaBsbMN9c109466EA4 ) : Addr: $007CE792
+StartApp.exe: 00002E8C: 19:04:58 [HandleFileRequest[127.0.0.1]]:File not found: C:\Users\l\PDEV\DELPHI\AppStart\Win32\Release\files\src\cardapio\chicken.jpeg
+StartApp.exe: 00001C44: 19:07:07 [HandleFileRequest[127.0.0.1]]:File not found: C:\Users\l\PDEV\DELPHI\AppStart\Win32\Release\files\src\cardapio\chicken.jpeg
+StartApp.exe: 00000F4C: 19:07:14 [TUniServerModule]:Shutting Down Server.
+StartApp.exe: 00000F4C: 19:07:14 [TUniServerModule]:Stopping HTTP Server.
+StartApp.exe: 00000F4C: 19:07:15 [TUniServerModule]:HTTP Server Stopped.
+StartApp.exe: 00000F4C: 19:07:15 [TUniGUISessionManager]:Terminating Session manager.
+StartApp.exe: 00000F4C: 19:07:15 [TUniGUISessionManager]:Stopping Cache Eraser...
+StartApp.exe: 00000F4C: 19:07:15 [TUniGUISessionManager]:Cache Eraser Stopped.
+StartApp.exe: 00000F4C: 19:07:15 [TUniGUISessionManager]:Destroying Worker Threads.
+StartApp.exe: 00000F4C: 19:07:15 [TUniGUISessionManager]:Session manager terminated.
+StartApp.exe: 00000F4C: 19:07:15 [TUniServerModule]:Server Shutdown Completed.
+StartApp.exe: 00000F4C: 19:07:15 []:<-------------------------------------------------------------->
+StartApp.exe: 00000F4C: 19:07:15 [Terminated]:Exit Code: 0
+StartApp.exe: 000041B8: 19:07:17 []:>--------------------------------------------------------------<
+StartApp.exe: 000041B8: 19:07:17 [TUniServerModule]:Server First Init.
+StartApp.exe: 000041B8: 19:07:17 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+StartApp.exe: 000041B8: 19:07:17 [TUniServerModule]:HTTP Server Started on Port: 8077
+StartApp.exe: 00004640: 19:07:19 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: zwzBzkFlid1094674CC ) : Addr: $007CE792
+StartApp.exe: 00001760: 19:07:20 [HandleFileRequest[127.0.0.1]]:File not found: C:\Users\l\PDEV\DELPHI\AppStart\Win32\Release\files\src\cardapio\chicken.jpeg
+StartApp.exe: 00003258: 19:07:24 [HandleFileRequest[127.0.0.1]]:File not found: C:\Users\l\PDEV\DELPHI\AppStart\Win32\Release\files\src\cardapio\chicken.jpeg
+StartApp.exe: 000041B8: 19:08:33 [TUniServerModule]:Shutting Down Server.
+StartApp.exe: 000041B8: 19:08:33 [TUniServerModule]:Stopping HTTP Server.
+StartApp.exe: 000041B8: 19:08:34 [TUniServerModule]:HTTP Server Stopped.
+StartApp.exe: 000041B8: 19:08:34 [TUniGUISessionManager]:Terminating Session manager.
+StartApp.exe: 000041B8: 19:08:34 [TUniGUISessionManager]:Stopping Cache Eraser...
+StartApp.exe: 000041B8: 19:08:34 [TUniGUISessionManager]:Cache Eraser Stopped.
+StartApp.exe: 000041B8: 19:08:34 [TUniGUISessionManager]:Destroying Worker Threads.
+StartApp.exe: 000041B8: 19:08:34 [TUniGUISessionManager]:Session manager terminated.
+StartApp.exe: 000041B8: 19:08:34 [TUniServerModule]:Server Shutdown Completed.
+StartApp.exe: 000041B8: 19:08:34 []:<-------------------------------------------------------------->
+StartApp.exe: 000041B8: 19:08:34 [Terminated]:Exit Code: 0
+StartApp.exe: 00003140: 19:09:13 []:>--------------------------------------------------------------<
+StartApp.exe: 00003140: 19:09:13 [TUniServerModule]:Server First Init.
+StartApp.exe: 00003140: 19:09:13 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+StartApp.exe: 00003140: 19:09:13 [TUniServerModule]:HTTP Server Started on Port: 8077
+StartApp.exe: 00000F0C: 19:09:23 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 6Jwmgf1Lvt1094674E0 ) : Addr: $007CE792
+StartApp.exe: 0000440C: 19:09:24 [HandleFileRequest[127.0.0.1]]:File not found: C:\Users\l\PDEV\DELPHI\AppStart\Win32\Release\files\src\cardapio\chicken.jpeg
+StartApp.exe: 0000174C: 19:09:36 [HandleFileRequest[127.0.0.1]]:File not found: C:\Users\l\PDEV\DELPHI\AppStart\Win32\Release\files\src\cardapio\chicken.jpeg

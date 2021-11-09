@@ -38,15 +38,15 @@ object MainmForm: TMainmForm
         'te-space: nowrap; vertical-align: middle;">'#39'+'#13#10'                 ' +
         '  '#13#10'                   '#39'<tr>'#39'+'#13#10'                   '#39'<td><image s' +
         'tyle="width:100%; height:90%; text-align: center;border-radius: ' +
-        '1rem;" src="files/src/cardapio/chicken.jpeg"/></td>'#39'+'#13#10'         ' +
-        '          '#39'</tr>'#39'+'#13#10'                    '#13#10'                   '#39'<t' +
-        'r>'#39'+'#13#10'                   '#39'<td style="color: #000;font-weight: 60' +
-        '0;font-size: 1.1rem;" colspan="2">{0}</td>'#39'+'#13#10'                  ' +
-        ' '#39'</tr>'#39'+'#13#10'                '#13#10'                   '#39'<tr>'#39'+  '#13#10'     ' +
-        '              '#39'<td style="color: #6f6f6f;font-weight: 600;font-s' +
-        'ize: 1.2rem;line-height: 28px;" colspan="2">R$ {1}</td>'#39'+'#13#10'     ' +
-        '              '#39'</tr>'#39'+'#13#10'                    '#13#10'                  ' +
-        ' '#39'</table>'#39';'#13#10'}'#13#10)
+        '1rem;" src="src/img/cardapio/burger.jpg"/></td>'#39'+'#13#10'             ' +
+        '      '#39'</tr>'#39'+'#13#10'                    '#13#10'                   '#39'<tr>'#39'+' +
+        #13#10'                   '#39'<td style="color: #000;font-weight: 600;fo' +
+        'nt-size: 1.1rem;" colspan="2">{0}</td>'#39'+'#13#10'                   '#39'</' +
+        'tr>'#39'+'#13#10'                '#13#10'                   '#39'<tr>'#39'+  '#13#10'         ' +
+        '          '#39'<td style="color: #6f6f6f;font-weight: 600;font-size:' +
+        ' 1.2rem;line-height: 28px;" colspan="2">R$ {1}</td>'#39'+'#13#10'         ' +
+        '          '#39'</tr>'#39'+'#13#10'                    '#13#10'                   '#39'</' +
+        'table>'#39';'#13#10'}'#13#10)
     Options = [dgColLines, dgRowLines, dgConfirmDelete]
     WebOptions.Paged = False
     WebOptions.FetchAll = True
