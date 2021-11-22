@@ -1,0 +1,94 @@
+StartApp.exe: 000046B4: 19:25:46 []:>--------------------------------------------------------------<
+StartApp.exe: 000046B4: 19:25:46 [TUniServerModule]:Server First Init.
+StartApp.exe: 000046B4: 19:25:46 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+StartApp.exe: 000046B4: 19:25:46 [TUniServerModule]:HTTP Server Started on Port: 8077
+StartApp.exe: 000046B4: 19:26:04 [TUniServerModule]:Shutting Down Server.
+StartApp.exe: 000046B4: 19:26:04 [TUniServerModule]:Stopping HTTP Server.
+StartApp.exe: 000046B4: 19:26:04 [TUniServerModule]:HTTP Server Stopped.
+StartApp.exe: 000046B4: 19:26:04 [TUniGUISessionManager]:Terminating Session manager.
+StartApp.exe: 000046B4: 19:26:04 [TUniGUISessionManager]:Stopping Cache Eraser...
+StartApp.exe: 000046B4: 19:26:04 [TUniGUISessionManager]:Cache Eraser Stopped.
+StartApp.exe: 000046B4: 19:26:04 [TUniGUISessionManager]:Destroying Worker Threads.
+StartApp.exe: 000046B4: 19:26:04 [TUniGUISessionManager]:Session manager terminated.
+StartApp.exe: 000046B4: 19:26:04 [TUniServerModule]:Server Shutdown Completed.
+StartApp.exe: 000046B4: 19:26:04 []:<-------------------------------------------------------------->
+StartApp.exe: 000046B4: 19:26:04 [Terminated]:Exit Code: 0
+StartApp.exe: 000020F8: 19:26:11 []:>--------------------------------------------------------------<
+StartApp.exe: 000020F8: 19:26:11 [TUniServerModule]:Server First Init.
+StartApp.exe: 000020F8: 19:26:11 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+StartApp.exe: 000020F8: 19:26:11 [TUniServerModule]:HTTP Server Started on Port: 8077
+StartApp.exe: 000020F8: 19:26:26 [TUniServerModule]:Shutting Down Server.
+StartApp.exe: 000020F8: 19:26:26 [TUniServerModule]:Stopping HTTP Server.
+StartApp.exe: 000020F8: 19:26:27 [TUniServerModule]:HTTP Server Stopped.
+StartApp.exe: 000020F8: 19:26:27 [TUniGUISessionManager]:Terminating Session manager.
+StartApp.exe: 000020F8: 19:26:27 [TUniGUISessionManager]:Stopping Cache Eraser...
+StartApp.exe: 000020F8: 19:26:27 [TUniGUISessionManager]:Cache Eraser Stopped.
+StartApp.exe: 000020F8: 19:26:27 [TUniGUISessionManager]:Destroying Worker Threads.
+StartApp.exe: 000020F8: 19:26:27 [TUniGUISessionManager]:Session manager terminated.
+StartApp.exe: 000020F8: 19:26:27 [TUniServerModule]:Server Shutdown Completed.
+StartApp.exe: 000020F8: 19:26:27 []:<-------------------------------------------------------------->
+StartApp.exe: 000020F8: 19:26:27 [Terminated]:Exit Code: 0
+StartApp.exe: 00004010: 21:06:29 []:>--------------------------------------------------------------<
+StartApp.exe: 00004010: 21:06:29 [TUniServerModule]:Server First Init.
+StartApp.exe: 00004010: 21:06:29 [TUniServerModule]:Debug Mode = ON
+StartApp.exe: 00004010: 21:06:29 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+StartApp.exe: 00004010: 21:06:30 [TUniServerModule]:HTTP Server Started on Port: 8077
+StartApp.exe: 00001F9C: 21:06:42 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: IDqN6E6tbt1094E2F44 ) : Addr: $007D0956
+StartApp.exe: 000044A0: 21:06:57 []:>--------------------------------------------------------------<
+StartApp.exe: 000044A0: 21:06:57 [TUniServerModule]:Server First Init.
+StartApp.exe: 000044A0: 21:06:57 [TUniServerModule]:Debug Mode = ON
+StartApp.exe: 000044A0: 21:06:57 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+StartApp.exe: 000044A0: 21:06:57 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+StartApp.exe: 000044A0: 21:06:57 [TUniServerModule]:HTTP Server Started on Port: 8077
+StartApp.exe: 00004250: 21:08:35 []:>--------------------------------------------------------------<
+StartApp.exe: 00004250: 21:08:35 [TUniServerModule]:Server First Init.
+StartApp.exe: 00004250: 21:08:35 [TUniServerModule]:Debug Mode = ON
+StartApp.exe: 00004250: 21:08:35 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+StartApp.exe: 00004250: 21:08:35 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+StartApp.exe: 00004250: 21:08:35 [TUniServerModule]:HTTP Server Started on Port: 8077
+StartApp.exe: 00004A0C: 21:09:06 []:>--------------------------------------------------------------<
+StartApp.exe: 00004A0C: 21:09:06 [TUniServerModule]:Server First Init.
+StartApp.exe: 00004A0C: 21:09:06 [TUniServerModule]:Debug Mode = ON
+StartApp.exe: 00004A0C: 21:09:06 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+StartApp.exe: 00004A0C: 21:09:06 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+StartApp.exe: 00004A0C: 21:09:06 [TUniServerModule]:HTTP Server Started on Port: 8077
+StartApp.exe: 00004A0C: 21:12:02 [TUniServerModule]:Shutting Down Server.
+StartApp.exe: 00004A0C: 21:12:02 [TUniServerModule]:Stopping HTTP Server.
+StartApp.exe: 00004A0C: 21:12:02 [TUniServerModule]:HTTP Server Stopped.
+StartApp.exe: 00004A0C: 21:12:02 [TUniGUISessionManager]:Terminating Session manager.
+StartApp.exe: 00004A0C: 21:12:02 [TUniGUISessionManager]:Stopping Cache Eraser...
+StartApp.exe: 00004A0C: 21:12:02 [TUniGUISessionManager]:Cache Eraser Stopped.
+StartApp.exe: 00004A0C: 21:12:02 [TUniGUISessionManager]:Destroying Worker Threads.
+StartApp.exe: 00004A0C: 21:12:02 [TUniGUISessionManager]:Session manager terminated.
+StartApp.exe: 00004A0C: 21:12:02 [TUniServerModule]:Server Shutdown Completed.
+StartApp.exe: 00004A0C: 21:12:02 []:<-------------------------------------------------------------->
+StartApp.exe: 00004A0C: 21:12:02 [Terminated]:Exit Code: 0
+StartApp.exe: 00002D40: 21:12:11 []:>--------------------------------------------------------------<
+StartApp.exe: 00002D40: 21:12:11 [TUniServerModule]:Server First Init.
+StartApp.exe: 00002D40: 21:12:11 [TUniServerModule]:Debug Mode = ON
+StartApp.exe: 00002D40: 21:12:12 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+StartApp.exe: 00002D40: 21:12:12 [TUniServerModule]:HTTP Server Started on Port: 8077
+StartApp.exe: 00001858: 21:15:25 []:>--------------------------------------------------------------<
+StartApp.exe: 00001858: 21:15:25 [TUniServerModule]:Server First Init.
+StartApp.exe: 00001858: 21:15:25 [TUniServerModule]:Debug Mode = ON
+StartApp.exe: 00001858: 21:15:25 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+StartApp.exe: 00001858: 21:15:25 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+StartApp.exe: 00001858: 21:15:26 [TUniServerModule]:HTTP Server Started on Port: 8077
+StartApp.exe: 00004110: 21:22:23 []:>--------------------------------------------------------------<
+StartApp.exe: 00004110: 21:22:23 [TUniServerModule]:Server First Init.
+StartApp.exe: 00004110: 21:22:23 [TUniServerModule]:Debug Mode = ON
+StartApp.exe: 00004110: 21:22:23 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+StartApp.exe: 00004110: 21:22:23 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+StartApp.exe: 00004110: 21:22:23 [TUniServerModule]:HTTP Server Started on Port: 8077
+StartApp.exe: 00001220: 21:25:12 []:>--------------------------------------------------------------<
+StartApp.exe: 00001220: 21:25:12 [TUniServerModule]:Server First Init.
+StartApp.exe: 00001220: 21:25:12 [TUniServerModule]:Debug Mode = ON
+StartApp.exe: 00001220: 21:25:12 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+StartApp.exe: 00001220: 21:25:12 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+StartApp.exe: 00001220: 21:25:13 [TUniServerModule]:HTTP Server Started on Port: 8077
+StartApp.exe: 00003E38: 21:28:58 []:>--------------------------------------------------------------<
+StartApp.exe: 00003E38: 21:28:58 [TUniServerModule]:Server First Init.
+StartApp.exe: 00003E38: 21:28:58 [TUniServerModule]:Debug Mode = ON
+StartApp.exe: 00003E38: 21:28:58 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+StartApp.exe: 00003E38: 21:28:58 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+StartApp.exe: 00003E38: 21:28:59 [TUniServerModule]:HTTP Server Started on Port: 8077

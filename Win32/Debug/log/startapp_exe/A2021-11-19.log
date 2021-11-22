@@ -1,0 +1,161 @@
+StartApp.exe: 00001CB0: 12:05:07 []:>--------------------------------------------------------------<
+StartApp.exe: 00001CB0: 12:05:07 [TUniServerModule]:Server First Init.
+StartApp.exe: 00001CB0: 12:05:07 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+StartApp.exe: 00001CB0: 12:05:07 [TUniServerModule]:HTTP Server Started on Port: 8077
+StartApp.exe: 0000326C: 12:05:08 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] Access denied for user 'ODBC'@'localhost' (using password: NO) : Addr: $008B0120
+StartApp.exe: 0000326C: 12:05:10 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] Access denied for user 'ODBC'@'localhost' (using password: NO) : Addr: $008B0120
+StartApp.exe: 00001CB0: 12:05:31 [TUniServerModule]:Shutting Down Server.
+StartApp.exe: 00001CB0: 12:05:31 [TUniServerModule]:Stopping HTTP Server.
+StartApp.exe: 00001CB0: 12:05:32 [TUniServerModule]:HTTP Server Stopped.
+StartApp.exe: 00001CB0: 12:05:32 [TUniGUISessionManager]:Terminating Session manager.
+StartApp.exe: 00001CB0: 12:05:32 [TUniGUISessionManager]:Stopping Cache Eraser...
+StartApp.exe: 00001CB0: 12:05:32 [TUniGUISessionManager]:Cache Eraser Stopped.
+StartApp.exe: 00001CB0: 12:05:32 [TUniGUISessionManager]:Destroying Worker Threads.
+StartApp.exe: 00001CB0: 12:05:32 [TUniGUISessionManager]:Session manager terminated.
+StartApp.exe: 00001CB0: 12:05:32 [TUniServerModule]:Server Shutdown Completed.
+StartApp.exe: 00001CB0: 12:05:32 []:<-------------------------------------------------------------->
+StartApp.exe: 00001CB0: 12:05:32 [Terminated]:Exit Code: 0
+StartApp.exe: 00002FC0: 12:05:37 []:>--------------------------------------------------------------<
+StartApp.exe: 00002FC0: 12:05:37 [TUniServerModule]:Server First Init.
+StartApp.exe: 00002FC0: 12:05:37 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+StartApp.exe: 00002FC0: 12:05:37 [TUniServerModule]:HTTP Server Started on Port: 8077
+StartApp.exe: 00002FC0: 12:07:41 [TUniServerModule]:Shutting Down Server.
+StartApp.exe: 00002FC0: 12:07:41 [TUniServerModule]:Stopping HTTP Server.
+StartApp.exe: 00002FC0: 12:07:42 [TUniServerModule]:HTTP Server Stopped.
+StartApp.exe: 00002FC0: 12:07:42 [TUniGUISessionManager]:Terminating Session manager.
+StartApp.exe: 00002FC0: 12:07:42 [TUniGUISessionManager]:Stopping Cache Eraser...
+StartApp.exe: 00002FC0: 12:07:42 [TUniGUISessionManager]:Cache Eraser Stopped.
+StartApp.exe: 00002FC0: 12:07:42 [TUniGUISessionManager]:Destroying Worker Threads.
+StartApp.exe: 00002FC0: 12:07:43 [TUniGUISessionManager]:Session manager terminated.
+StartApp.exe: 00002FC0: 12:07:43 [TUniServerModule]:Server Shutdown Completed.
+StartApp.exe: 00002FC0: 12:07:43 []:<-------------------------------------------------------------->
+StartApp.exe: 00002FC0: 12:07:43 [Terminated]:Exit Code: 0
+StartApp.exe: 000022B8: 12:07:48 []:>--------------------------------------------------------------<
+StartApp.exe: 000022B8: 12:07:48 [TUniServerModule]:Server First Init.
+StartApp.exe: 000022B8: 12:07:48 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+StartApp.exe: 000022B8: 12:07:48 [TUniServerModule]:HTTP Server Started on Port: 8077
+StartApp.exe: 00002C94: 12:07:48 [192.168.4.34]:EUniSessionException : Invalid session or session Timeout. (Session not found: mdIz5uHAwm1095B5F54 ) : Addr: $0080B766
+StartApp.exe: 000022B8: 12:09:42 [TUniServerModule]:Shutting Down Server.
+StartApp.exe: 000022B8: 12:09:42 [TUniServerModule]:Stopping HTTP Server.
+StartApp.exe: 000022B8: 12:09:43 [TUniServerModule]:HTTP Server Stopped.
+StartApp.exe: 000022B8: 12:09:43 [TUniGUISessionManager]:Terminating Session manager.
+StartApp.exe: 000022B8: 12:09:43 [TUniGUISessionManager]:Stopping Cache Eraser...
+StartApp.exe: 000022B8: 12:09:43 [TUniGUISessionManager]:Cache Eraser Stopped.
+StartApp.exe: 000022B8: 12:09:43 [TUniGUISessionManager]:Destroying Worker Threads.
+StartApp.exe: 000022B8: 12:09:43 [TUniGUISessionManager]:Session manager terminated.
+StartApp.exe: 000022B8: 12:09:43 [TUniServerModule]:Server Shutdown Completed.
+StartApp.exe: 000022B8: 12:09:43 []:<-------------------------------------------------------------->
+StartApp.exe: 000022B8: 12:09:43 [Terminated]:Exit Code: 0
+StartApp.exe: 00000964: 12:09:47 []:>--------------------------------------------------------------<
+StartApp.exe: 00000964: 12:09:47 [TUniServerModule]:Server First Init.
+StartApp.exe: 00000964: 12:09:47 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+StartApp.exe: 00000964: 12:09:47 [TUniServerModule]:HTTP Server Started on Port: 8077
+StartApp.exe: 0000169C: 12:09:48 [192.168.4.34]:EUniSessionException : Invalid session or session Timeout. (Session not found: LLMz87gvHR1095B5FCE ) : Addr: $0080B766
+StartApp.exe: 00000964: 12:11:48 [TUniServerModule]:Shutting Down Server.
+StartApp.exe: 00000964: 12:11:48 [TUniServerModule]:Stopping HTTP Server.
+StartApp.exe: 00000964: 12:11:49 [TUniServerModule]:HTTP Server Stopped.
+StartApp.exe: 00000964: 12:11:49 [TUniGUISessionManager]:Terminating Session manager.
+StartApp.exe: 00000964: 12:11:49 [TUniGUISessionManager]:Stopping Cache Eraser...
+StartApp.exe: 00000964: 12:11:49 [TUniGUISessionManager]:Cache Eraser Stopped.
+StartApp.exe: 00000964: 12:11:49 [TUniGUISessionManager]:Destroying Worker Threads.
+StartApp.exe: 00000964: 12:11:49 [TUniGUISessionManager]:Session manager terminated.
+StartApp.exe: 00000964: 12:11:49 [TUniServerModule]:Server Shutdown Completed.
+StartApp.exe: 00000964: 12:11:49 []:<-------------------------------------------------------------->
+StartApp.exe: 00000964: 12:11:49 [Terminated]:Exit Code: 0
+StartApp.exe: 00001B18: 12:11:56 []:>--------------------------------------------------------------<
+StartApp.exe: 00001B18: 12:11:56 [TUniServerModule]:Server First Init.
+StartApp.exe: 00001B18: 12:11:56 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+StartApp.exe: 00001B18: 12:11:56 [TUniServerModule]:HTTP Server Started on Port: 8077
+StartApp.exe: 00003460: 12:12:00 [192.168.4.34]:EUniSessionException : Invalid session or session Timeout. (Session not found: slD5wmR4qV1095B606C ) : Addr: $0080B766
+StartApp.exe: 00001B18: 18:41:08 [TUniServerModule]:Shutting Down Server.
+StartApp.exe: 00001B18: 18:41:08 [TUniServerModule]:Stopping HTTP Server.
+StartApp.exe: 00001B18: 18:41:08 [TUniServerModule]:HTTP Server Stopped.
+StartApp.exe: 00001B18: 18:41:08 [TUniGUISessionManager]:Terminating Session manager.
+StartApp.exe: 00001B18: 18:41:08 [TUniGUISessionManager]:Stopping Cache Eraser...
+StartApp.exe: 00001B18: 18:41:08 [TUniGUISessionManager]:Cache Eraser Stopped.
+StartApp.exe: 00001B18: 18:41:08 [TUniGUISessionManager]:Destroying Worker Threads.
+StartApp.exe: 00001B18: 18:41:08 [TUniGUISessionManager]:Session manager terminated.
+StartApp.exe: 00001B18: 18:41:08 [TUniServerModule]:Server Shutdown Completed.
+StartApp.exe: 00001B18: 18:41:08 []:<-------------------------------------------------------------->
+StartApp.exe: 00001B18: 18:41:08 [Terminated]:Exit Code: 0
+StartApp.exe: 000029A8: 18:41:15 []:>--------------------------------------------------------------<
+StartApp.exe: 000029A8: 18:41:15 [TUniServerModule]:Server First Init.
+StartApp.exe: 000029A8: 18:41:15 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+StartApp.exe: 000029A8: 18:41:15 [TUniServerModule]:HTTP Server Started on Port: 8077
+StartApp.exe: 00002B18: 18:41:31 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] Access denied for user 'ODBC'@'localhost' (using password: NO) : Addr: $008B0120
+StartApp.exe: 00002B18: 18:41:34 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] Access denied for user 'ODBC'@'localhost' (using password: NO) : Addr: $008B0120
+StartApp.exe: 00002B18: 18:41:35 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] Access denied for user 'ODBC'@'localhost' (using password: NO) : Addr: $008B0120
+StartApp.exe: 00002B18: 18:41:53 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] Access denied for user 'ODBC'@'localhost' (using password: NO) : Addr: $008B0120
+StartApp.exe: 00002B18: 18:42:04 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] Access denied for user 'ODBC'@'localhost' (using password: NO) : Addr: $008B0120
+StartApp.exe: 00002B18: 18:42:05 [HandleFileRequest[127.0.0.1]]:File not found: C:\Users\l\PDEV\DELPHI\AppStart\Win32\Debug\favicon.ico
+StartApp.exe: 000029A8: 18:42:09 [TUniServerModule]:Shutting Down Server.
+StartApp.exe: 000029A8: 18:42:09 [TUniServerModule]:Stopping HTTP Server.
+StartApp.exe: 000029A8: 18:42:10 [TUniServerModule]:HTTP Server Stopped.
+StartApp.exe: 000029A8: 18:42:10 [TUniGUISessionManager]:Terminating Session manager.
+StartApp.exe: 000029A8: 18:42:10 [TUniGUISessionManager]:Stopping Cache Eraser...
+StartApp.exe: 000029A8: 18:42:11 [TUniGUISessionManager]:Cache Eraser Stopped.
+StartApp.exe: 000029A8: 18:42:11 [TUniGUISessionManager]:Destroying Worker Threads.
+StartApp.exe: 000029A8: 18:42:11 [TUniGUISessionManager]:Session manager terminated.
+StartApp.exe: 000029A8: 18:42:11 [TUniServerModule]:Server Shutdown Completed.
+StartApp.exe: 000029A8: 18:42:11 []:<-------------------------------------------------------------->
+StartApp.exe: 000029A8: 18:42:11 [Terminated]:Exit Code: 0
+StartApp.exe: 0000375C: 18:42:33 []:>--------------------------------------------------------------<
+StartApp.exe: 0000375C: 18:42:33 [TUniServerModule]:Server First Init.
+StartApp.exe: 0000375C: 18:42:33 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+StartApp.exe: 0000375C: 18:42:33 [TUniServerModule]:HTTP Server Started on Port: 8077
+StartApp.exe: 00002880: 18:42:40 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] Access denied for user 'ODBC'@'localhost' (using password: NO) : Addr: $008B0120
+StartApp.exe: 00002880: 18:42:41 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] Access denied for user 'ODBC'@'localhost' (using password: NO) : Addr: $008B0120
+StartApp.exe: 0000375C: 18:42:54 [TUniServerModule]:Shutting Down Server.
+StartApp.exe: 0000375C: 18:42:54 [TUniServerModule]:Stopping HTTP Server.
+StartApp.exe: 0000375C: 18:42:55 [TUniServerModule]:HTTP Server Stopped.
+StartApp.exe: 0000375C: 18:42:55 [TUniGUISessionManager]:Terminating Session manager.
+StartApp.exe: 0000375C: 18:42:55 [TUniGUISessionManager]:Stopping Cache Eraser...
+StartApp.exe: 0000375C: 18:42:55 [TUniGUISessionManager]:Cache Eraser Stopped.
+StartApp.exe: 0000375C: 18:42:55 [TUniGUISessionManager]:Destroying Worker Threads.
+StartApp.exe: 0000375C: 18:42:55 [TUniGUISessionManager]:Session manager terminated.
+StartApp.exe: 0000375C: 18:42:55 [TUniServerModule]:Server Shutdown Completed.
+StartApp.exe: 0000375C: 18:42:55 []:<-------------------------------------------------------------->
+StartApp.exe: 0000375C: 18:42:55 [Terminated]:Exit Code: 0
+StartApp.exe: 0000367C: 18:43:36 []:>--------------------------------------------------------------<
+StartApp.exe: 0000367C: 18:43:36 [TUniServerModule]:Server First Init.
+StartApp.exe: 0000367C: 18:43:36 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+StartApp.exe: 0000367C: 18:43:36 [TUniServerModule]:HTTP Server Started on Port: 8077
+StartApp.exe: 000032E4: 18:43:53 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] Access denied for user 'ODBC'@'localhost' (using password: NO) : Addr: $008B0120
+StartApp.exe: 000032E4: 18:43:53 [HandleFileRequest[127.0.0.1]]:File not found: C:\Users\l\PDEV\DELPHI\AppStart\Win32\Debug\favicon.ico
+StartApp.exe: 00003804: 18:43:56 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] Access denied for user 'ODBC'@'localhost' (using password: NO) : Addr: $008B0120
+StartApp.exe: 00003804: 18:43:57 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] Access denied for user 'ODBC'@'localhost' (using password: NO) : Addr: $008B0120
+StartApp.exe: 00003804: 18:43:58 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] Access denied for user 'ODBC'@'localhost' (using password: NO) : Addr: $008B0120
+StartApp.exe: 00003804: 18:44:00 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] Access denied for user 'ODBC'@'localhost' (using password: NO) : Addr: $008B0120
+StartApp.exe: 00003804: 18:44:01 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] Access denied for user 'ODBC'@'localhost' (using password: NO) : Addr: $008B0120
+StartApp.exe: 00003804: 18:44:02 [127.0.0.1]:EMySQLNativeException : [FireDAC][Phys][MySQL] Access denied for user 'ODBC'@'localhost' (using password: NO) : Addr: $008B0120
+StartApp.exe: 0000367C: 18:44:29 [TUniServerModule]:Shutting Down Server.
+StartApp.exe: 0000367C: 18:44:29 [TUniServerModule]:Stopping HTTP Server.
+StartApp.exe: 0000367C: 18:44:30 [TUniServerModule]:HTTP Server Stopped.
+StartApp.exe: 0000367C: 18:44:30 [TUniGUISessionManager]:Terminating Session manager.
+StartApp.exe: 0000367C: 18:44:30 [TUniGUISessionManager]:Stopping Cache Eraser...
+StartApp.exe: 0000367C: 18:44:30 [TUniGUISessionManager]:Cache Eraser Stopped.
+StartApp.exe: 0000367C: 18:44:30 [TUniGUISessionManager]:Destroying Worker Threads.
+StartApp.exe: 0000367C: 18:44:30 [TUniGUISessionManager]:Session manager terminated.
+StartApp.exe: 0000367C: 18:44:30 [TUniServerModule]:Server Shutdown Completed.
+StartApp.exe: 0000367C: 18:44:30 []:<-------------------------------------------------------------->
+StartApp.exe: 0000367C: 18:44:30 [Terminated]:Exit Code: 0
+StartApp.exe: 00003838: 19:34:59 []:>--------------------------------------------------------------<
+StartApp.exe: 00003838: 19:34:59 [TUniServerModule]:Server First Init.
+StartApp.exe: 00003838: 19:34:59 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+StartApp.exe: 00003838: 19:34:59 [TUniServerModule]:HTTP Server Started on Port: 8077
+StartApp.exe: 00003838: 19:44:49 [TUniServerModule]:Shutting Down Server.
+StartApp.exe: 00003838: 19:44:49 [TUniServerModule]:Stopping HTTP Server.
+StartApp.exe: 00003838: 19:44:50 [TUniServerModule]:HTTP Server Stopped.
+StartApp.exe: 00003838: 19:44:50 [TUniGUISessionManager]:Terminating Session manager.
+StartApp.exe: 00003838: 19:44:50 [TUniGUISessionManager]:Stopping Cache Eraser...
+StartApp.exe: 00003838: 19:44:50 [TUniGUISessionManager]:Cache Eraser Stopped.
+StartApp.exe: 00003838: 19:44:50 [TUniGUISessionManager]:Destroying Worker Threads.
+StartApp.exe: 00003838: 19:44:50 [TUniGUISessionManager]:Session manager terminated.
+StartApp.exe: 00003838: 19:44:50 [TUniServerModule]:Server Shutdown Completed.
+StartApp.exe: 00003838: 19:44:50 []:<-------------------------------------------------------------->
+StartApp.exe: 00003838: 19:44:50 [Terminated]:Exit Code: 0
+StartApp.exe: 000009E0: 19:44:55 []:>--------------------------------------------------------------<
+StartApp.exe: 000009E0: 19:44:55 [TUniServerModule]:Server First Init.
+StartApp.exe: 000009E0: 19:44:55 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+StartApp.exe: 000009E0: 19:44:55 [TUniServerModule]:HTTP Server Started on Port: 8077
+StartApp.exe: 000037AC: 19:45:01 [192.168.4.34]:EUniSessionException : Invalid session or session Timeout. (Session not found: ttejSqClmy1095BD12E ) : Addr: $007D0956

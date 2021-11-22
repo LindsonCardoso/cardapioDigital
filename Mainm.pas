@@ -55,14 +55,16 @@ end;
 
 procedure TMainmForm.btnItemsClick(Sender: TObject);
 begin
+
     if cdsRascunho.IsEmpty then Exit;
     frmRascunho.ShowModal();
+
 end;
 
 procedure TMainmForm.dbgCardapioClick(Sender: TObject);
 begin
-    frmCardapioItems.Caption := UniMainModule.qryCardapiopro_descricao.AsString;
-    frmCardapioItems.ShowModal();
+    //frmCardapioItems.Caption := UniMainModule.qryCardapiopro_descricao.AsString;
+    //frmCardapioItems.ShowModal();
 end;
 
 procedure TMainmForm.Header;
@@ -85,6 +87,7 @@ begin
       html.Add('</html>');
 
       UnimHTMLFrame1.HTML.Text := html.Text;
+      html.Free;
 end;
 
 
@@ -92,9 +95,16 @@ end;
 
 procedure TMainmForm.UnimFormCreate(Sender: TObject);
 begin
+
+
   Header;
   UniMainModule.qryCardapio.Close;
-  UniMainModule.qryCardapio.Open();
+  UniMainModule.qryCardapio.Open;
+
+  //mesa    := UniApplication.Parameters.Values['mesa'];
+  //UniMainModule.UsuarioQuarto := mesa;
+  //Abertura da tabela
+
 end;
 
 

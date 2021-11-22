@@ -81,10 +81,6 @@ begin
    MainmForm.cdsRascunho.Close;
    MainmForm.cdsRascunho.Open;
    Self.Close;
-
-
-
-
     toast.Clear;
     toast.Title := '😋 Pedido enviado!!!';
     toast.Msg := '';
@@ -93,7 +89,7 @@ begin
     toast.Balloon := False;
     toast.Position := TToastPosition.bottomRight;
     toast.ProgressBarColor := 'RGB(80,139,255)';
-    toast.TimeOut := 10000;
+    toast.TimeOut := 01800;
     toast.Overlay := True;
     toast.Show;
 

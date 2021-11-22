@@ -1,0 +1,20 @@
+StartApp.exe: 00001960: 20:14:22 []:>--------------------------------------------------------------<
+StartApp.exe: 00001960: 20:14:22 [TUniServerModule]:Server First Init.
+StartApp.exe: 00001960: 20:14:22 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+StartApp.exe: 00001960: 20:14:22 [TUniServerModule]:HTTP Server Started on Port: 8077
+StartApp.exe: 00001960: 20:16:00 [TUniServerModule]:Shutting Down Server.
+StartApp.exe: 00001960: 20:16:00 [TUniServerModule]:Stopping HTTP Server.
+StartApp.exe: 00001960: 20:16:01 [TUniServerModule]:HTTP Server Stopped.
+StartApp.exe: 00001960: 20:16:01 [TUniGUISessionManager]:Terminating Session manager.
+StartApp.exe: 00001960: 20:16:01 [TUniGUISessionManager]:Stopping Cache Eraser...
+StartApp.exe: 00001960: 20:16:01 [TUniGUISessionManager]:Cache Eraser Stopped.
+StartApp.exe: 00001960: 20:16:01 [TUniGUISessionManager]:Destroying Worker Threads.
+StartApp.exe: 00001960: 20:16:01 [TUniGUISessionManager]:Session manager terminated.
+StartApp.exe: 00001960: 20:16:01 [TUniServerModule]:Server Shutdown Completed.
+StartApp.exe: 00001960: 20:16:01 []:<-------------------------------------------------------------->
+StartApp.exe: 00001960: 20:16:01 [Terminated]:Exit Code: 0
+StartApp.exe: 00003874: 20:18:03 []:>--------------------------------------------------------------<
+StartApp.exe: 00003874: 20:18:03 [TUniServerModule]:Server First Init.
+StartApp.exe: 00003874: 20:18:03 [TUniServerModule]:Debug Mode = ON
+StartApp.exe: 00003874: 20:18:04 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+StartApp.exe: 00003874: 20:18:04 [TUniServerModule]:HTTP Server Started on Port: 8077

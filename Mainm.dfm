@@ -34,19 +34,15 @@ object MainmForm: TMainmForm
       
         'beforeInit=function beforeInit(sender, config)'#13#10'{'#13#10'    config.lo' +
         'adingText='#39'Buscando...'#39';'#13#10'    config.grouped=true;'#13#10'    config.s' +
-        'electedCls='#39#39';'#13#10'    config.itemTpl='#39'<table style="width:100%;whi' +
-        'te-space: nowrap; vertical-align: middle;">'#39'+'#13#10'                 ' +
-        '  '#13#10'                   '#39'<tr>'#39'+'#13#10'                   '#39'<td><image s' +
-        'tyle="width:100%; height:90%; text-align: center;border-radius: ' +
-        '1rem;" src="src/img/cardapio/burger.jpg"/></td>'#39'+'#13#10'             ' +
-        '      '#39'</tr>'#39'+'#13#10'                    '#13#10'                   '#39'<tr>'#39'+' +
-        #13#10'                   '#39'<td style="color: #000;font-weight: 600;fo' +
-        'nt-size: 1.1rem;" colspan="2">{0}</td>'#39'+'#13#10'                   '#39'</' +
-        'tr>'#39'+'#13#10'                '#13#10'                   '#39'<tr>'#39'+  '#13#10'         ' +
-        '          '#39'<td style="color: #6f6f6f;font-weight: 600;font-size:' +
-        ' 1.2rem;line-height: 28px;" colspan="2">R$ {1}</td>'#39'+'#13#10'         ' +
-        '          '#39'</tr>'#39'+'#13#10'                    '#13#10'                   '#39'</' +
-        'table>'#39';'#13#10'}'#13#10)
+        'electedCls='#39#39';'#13#10'    config.itemTpl='#39'<div class="row">'#39'+'#13#10'       ' +
+        '            '#13#10'                   '#39'<div class="column">'#39'+'#13#10'      ' +
+        '              '#39'<div class="card">'#39'+'#13#10'                     '#39'<imag' +
+        'e style="width: 100%; height:80%; text-align: center;border-radi' +
+        'us: 1rem;" src="src/img/cardapio/burger.jpg"/>'#39'+'#13#10'              ' +
+        '       '#39'<h3>{0}</h3>'#39'+'#13#10'                     '#39'<p>{2}</p>'#39'+'#13#10'    ' +
+        '                 '#39'<h4>R$ {1}</h4>'#39'+'#13#10'                    '#39'</div>' +
+        #39'+'#13#10'                   '#39'</div>'#39'+              '#13#10'                ' +
+        '   '#39'</div>'#39';'#13#10'}'#13#10)
     Options = [dgColLines, dgRowLines, dgConfirmDelete]
     WebOptions.Paged = False
     WebOptions.FetchAll = True
@@ -63,6 +59,11 @@ object MainmForm: TMainmForm
         FieldName = 'pro_valor'
         Visible = False
         Width = 125
+      end
+      item
+        Title.Caption = 'pro_observacao'
+        FieldName = 'pro_observacao'
+        Width = 5504
       end>
   end
   object btnItems: TUnimButton
@@ -72,6 +73,7 @@ object MainmForm: TMainmForm
     Width = 314
     Height = 44
     Hint = ''
+    Visible = False
     Align = alBottom
     Caption = 'CARRINHO'
     IconCls = 'fas fa-shopping-cart'

@@ -1,0 +1,27 @@
+StartApp.exe: 00000A40: 08:51:02 []:>--------------------------------------------------------------<
+StartApp.exe: 00000A40: 08:51:02 [TUniServerModule]:Server First Init.
+StartApp.exe: 00000A40: 08:51:02 [TUniServerModule]:Debug Mode = ON
+StartApp.exe: 00000A40: 08:51:02 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+StartApp.exe: 00000A40: 08:51:02 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+StartApp.exe: 00000A40: 08:51:03 [TUniServerModule]:HTTP Server Started on Port: 8077
+StartApp.exe: 00004200: 08:51:14 []:>--------------------------------------------------------------<
+StartApp.exe: 00004200: 08:51:14 [TUniServerModule]:Server First Init.
+StartApp.exe: 00004200: 08:51:14 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+StartApp.exe: 00004200: 08:51:14 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+StartApp.exe: 00004200: 08:51:14 [TUniServerModule]:HTTP Server Started on Port: 8077
+StartApp.exe: 00004200: 08:53:11 [TUniServerModule]:Shutting Down Server.
+StartApp.exe: 00004200: 08:53:11 [TUniServerModule]:Stopping HTTP Server.
+StartApp.exe: 00004200: 08:53:11 [TUniServerModule]:HTTP Server Stopped.
+StartApp.exe: 00004200: 08:53:11 [TUniGUISessionManager]:Terminating Session manager.
+StartApp.exe: 00004200: 08:53:11 [TUniGUISessionManager]:Stopping Cache Eraser...
+StartApp.exe: 00004200: 08:53:11 [TUniGUISessionManager]:Cache Eraser Stopped.
+StartApp.exe: 00004200: 08:53:12 [TUniGUISessionManager]:Destroying Worker Threads.
+StartApp.exe: 00004200: 08:53:12 [TUniGUISessionManager]:Session manager terminated.
+StartApp.exe: 00004200: 08:53:12 [TUniServerModule]:Server Shutdown Completed.
+StartApp.exe: 00004200: 08:53:12 []:<-------------------------------------------------------------->
+StartApp.exe: 00004200: 08:53:12 [Terminated]:Exit Code: 0
+StartApp.exe: 00003A78: 09:56:15 []:>--------------------------------------------------------------<
+StartApp.exe: 00003A78: 09:56:15 [TUniServerModule]:Server First Init.
+StartApp.exe: 00003A78: 09:56:15 [TUniServerModule]:Debug Mode = ON
+StartApp.exe: 00003A78: 09:56:16 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+StartApp.exe: 00003A78: 09:56:16 [TUniServerModule]:HTTP Server Started on Port: 8077

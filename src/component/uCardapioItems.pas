@@ -52,6 +52,12 @@ var  totalConta: Real;
 
 begin
 
+     if(edtQtde.Value = 0) then
+     begin
+       frmCardapioItems.Close;
+     end;
+
+
      MainmForm.cdsRascunho.Append;
 
      //MainmForm.cdsRascunho.FieldByName('mesa').AsInteger   := MainmForm.mesa;
@@ -76,7 +82,7 @@ begin
     toastItems.Position := TToastPosition.bottomRight;
     toastItems.ProgressBarColor := 'RGB(80,139,255)';
     toastItems.Layout := TToastLayout.SmallInt;
-    toastItems.TimeOut := 10000;
+    toastItems.TimeOut := 01800;
     toastItems.Overlay := True;
     toastItems.Show;
 end;
@@ -117,6 +123,7 @@ begin
          html.Add('</div>');
 
       htmlItems.HTML.Text := html.Text;
+      html.Free;
 end;
 
 procedure TfrmCardapioItems.UnimFormCreate(Sender: TObject);

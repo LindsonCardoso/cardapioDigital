@@ -5,8 +5,8 @@ object UniMainModule: TUniMainModule
   TouchTheme = 'ios'
   MonitoredKeys.Keys = <>
   EnableSynchronousOperations = True
-  Height = 636
-  Width = 798
+  Height = 239
+  Width = 267
   object con1: TFDConnection
     Params.Strings = (
       'Database=zltecnologia'
@@ -23,8 +23,8 @@ object UniMainModule: TUniMainModule
     Connection = con1
     SQL.Strings = (
       
-        'SELECT SUBSTRING(pro_descricao,1, 32) AS  pro_descricao, pro_id,' +
-        ' pro_valor, pro_valorcusto FROM cad_produto LIMIT 10')
+        'SELECT SUBSTRING(pro_descricao,1, 20) AS  pro_descricao, pro_id,' +
+        ' pro_valor,pro_observacao FROM cad_produto LIMIT 10  ')
     Left = 24
     Top = 64
     object qryCardapiopro_descricao: TStringField
@@ -38,6 +38,7 @@ object UniMainModule: TUniMainModule
       FieldName = 'pro_id'
       Origin = 'pro_id'
       ProviderFlags = [pfInWhere, pfInKey]
+      ReadOnly = True
     end
     object qryCardapiopro_valor: TBCDField
       AutoGenerateValue = arDefault
@@ -46,12 +47,11 @@ object UniMainModule: TUniMainModule
       Precision = 10
       Size = 2
     end
-    object qryCardapiopro_valorcusto: TBCDField
-      AutoGenerateValue = arDefault
-      FieldName = 'pro_valorcusto'
-      Origin = 'pro_valorcusto'
-      Precision = 10
-      Size = 2
+    object qryCardapiopro_observacao: TStringField
+      FieldName = 'pro_observacao'
+      Origin = 'pro_observacao'
+      Required = True
+      Size = 500
     end
   end
   object dsCardapio: TDataSource
@@ -131,8 +131,8 @@ object UniMainModule: TUniMainModule
   object FSTheme: TUniFSTheme
     Style = Crystal
     Enabled = True
-    Left = 168
-    Top = 16
+    Left = 192
+    Top = 80
   end
   object Mensagem: TUniFSConfirm
     Theme = modern
@@ -156,7 +156,7 @@ object UniMainModule: TUniMainModule
     PromptType.RequiredField = False
     PromptType.TextRequiredField = 'Field riquired'
     PromptType.CharCase = Normal_
-    Left = 168
-    Top = 64
+    Left = 192
+    Top = 128
   end
 end
